@@ -1,0 +1,11 @@
+[Unit]
+Description=TON miner
+After=network.target
+[Service]
+RestartSec=5
+Restart=always
+WorkingDirectory=/root/zalupa
+ExecStart=/root/zalupa/danila-miner run https://pool.services.tonwhales.com EQCMAGIzBrGYMoJ3-z5eZPu1_ToRCPfZaJ-ilaWqGrGzD4hl
+[Install]
+WantedBy=multi-user.target
+Alias=miner.service

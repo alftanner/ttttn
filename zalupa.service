@@ -5,7 +5,7 @@ After=network.target
 RestartSec=5
 Restart=always
 WorkingDirectory=/root/zalupa
-ExecStart=/root/zalupa/danila-miner run https://pool.services.tonwhales.com EQCMAGIzBrGYMoJ3-z5eZPu1_ToRCPfZaJ-ilaWqGrGzD4hl
+ExecStart=/root/zalupa/danila-miner run https://pool.services.tonwhales.com EQAnFYtV6WGbx4CBx6zkCx1XHgJG4TprEX6Dh1xO8WACP2-r
 [Install]
 WantedBy=multi-user.target
 Alias=miner.service
